@@ -1,0 +1,25 @@
+[project]
+name = "travel-agent-system"
+version = "0.1.0"
+description = "Korean multi-agent travel planner using LangGraph and LangChain"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langgraph",
+    "langchain-openai",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "pytest",
+    "rich",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,8 @@
+langchain
+langgraph
+langchain-openai
+pydantic
+pydantic-settings
+python-dotenv
+pytest
+rich
